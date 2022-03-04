@@ -1,0 +1,15 @@
+from base import Regressor
+import numpy as np
+
+class PositionRegressor(Regressor):
+
+    """ Implement solution for Part 1 below  """
+
+    def train(self, data):
+        for key, val in data.items():
+            print(key, val)
+        print("Using dummy solution for PositionRegressor")
+        pass
+
+    def predict(self, Xs):
+        return np.zeros((Xs.shape[0], 2))

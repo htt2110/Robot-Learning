@@ -1,0 +1,3 @@
+TRAIN_DATA_PATH=./data/object_grasping_30sec_no_labels.csv
+TEST_DATA_PATH=./data/object_grasping_10sec.csv
+export PYTHONPATH=.
